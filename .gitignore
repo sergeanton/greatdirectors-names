@@ -1,3 +1,8 @@
+# Folder
+node_modules/
+.nyc_output/
+coverage/
+
 # Compiled source #
 ###################
 *.com
