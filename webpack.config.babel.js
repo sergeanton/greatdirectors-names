@@ -7,7 +7,7 @@ let config = {
     output: {
       path: path.resolve(__dirname, "./dist"),
       libraryTarget: 'umd',
-      library: 'starWarsNames',
+      library: 'greatdirectorsNames',
     },
     devtool: 'source-map',
     module: {
