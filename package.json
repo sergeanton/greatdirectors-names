@@ -11,6 +11,7 @@
     "build:umd.min": "webpack --mode=production --output-filename index.umd.min.js",
     "test": "nyc mocha",
     "watch:test": "mocha --watch",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build"
   },
@@ -37,6 +38,7 @@
     "@babel/preset-env": "^7.11.0",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
+    "codecov": "^3.7.2",
     "eslint": "^7.7.0",
     "eslint-config-kentcdodds": "^14.14.2",
     "ghooks": "^2.0.4",
